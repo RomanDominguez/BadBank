@@ -1,0 +1,153 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.438);
+  color: rgba(0, 170, 255, 0.662);
+  text-align: center; 
+  border: 3px solid black;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+h1 {
+  background-color: grey;
+  color: rgba(0, 170, 255, 0.662);
+  text-align: center;
+  text-shadow:2px 2px black;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.navbar li li li ul{
+  background-color: rgba(0, 0, 0, 0.436);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: large;
+  position: absolute;
+  
+}
+
+.navbar-expand-lg:hover {
+  background-color: rgba(0, 0, 0, 0.412);
+  border: 3px solid black;
+  border-radius: 15px;
+  flex-direction: column;
+ }
+
+.bg-body-tertiary {
+  background-color: rgb(0, 145, 255);
+  border: 3px solid black;
+  border-radius: 15px;
+  flex-direction: column;
+ }
+
+.container-fluid {
+  background-color: white;
+  background-image: url(/src/background.jpeg);
+ 
+
+  border: 3px solid black;
+  border-radius: 15px;
+  flex-direction: column;
+ }
+
+.navbar-brand {
+  background-color: rgb(0, 145, 255);
+  color: white;
+  text-shadow:2px 2px black;
+  border: 3px solid black;
+  border-radius: 15px;
+ }
+
+ .navbar-brand:hover {
+  background-color: rgba(0, 0, 0, 0.233);
+  color: grey;
+  border: 3px solid black;
+  border-radius: 15px;
+ }
+
+.collapse {
+ background-color: rgb(0, 145, 255);
+ border: 3px solid black;
+  border-radius: 15px;
+}
+
+.navbar-collapse:hover {
+  background-color: rgb(0, 76, 255);
+  color: white;
+  border: 3px solid black;
+  border-radius: 15px;
+ }
+
+ .navbar-nav {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 15px;
+ }
+
+ .navbar-nav:hover {
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 15px;
+ }
+
+ .nav-item {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 3px solid black;
+  border-radius: 15px; 
+}
+.nav-item:hover {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 3px solid grey;
+  border-radius: 15px; 
+}
+
+ .nav-link {
+  color: gray;
+  border: 3px solid black;
+  border-radius: 15px; 
+  transition: linear;
+ }
+
+ .nav-link:hover {
+  color: white;
+  border: 3px solid black;
+  border-radius: 15px; 
+ }
+
+ .form-control {
+  color: darkblue;
+  border: 3px solid black;
+  border-radius: 15px; 
+ }
+
+ .btn {
+  background-color: red;
+  border: 3px solid black;
+  border-radius: 15px; 
+  align-content: center;
+ }
+
+ .btn-light:hover {
+  background-color: green;
+  border: 3px solid black;
+  border-radius: 15px; 
+ }
+
+ .login {
+  align-items: left;
+  color:black;
+}
+
+.email-login {
+  color: white;
+}
+
+.password-login {
+  color: white;
+}
+.submit-login {
+  color: white;
+}
+
+
+
