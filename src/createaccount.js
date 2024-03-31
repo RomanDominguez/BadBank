@@ -19,7 +19,7 @@ function CreateAccount() {
                     setTimeout(() => setStatus(' '), 3000);
                     return false;
                 }
-                return true;  //error here!
+                return true;  
             }
 
 

@@ -17,11 +17,7 @@ function AllData () {
             body={JSON.stringify(ctx)}
     />
         
-        
-        
-
-       
-
+      
     </>
 
     );
