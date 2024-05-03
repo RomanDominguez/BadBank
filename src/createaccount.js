@@ -11,7 +11,6 @@ function CreateAccount() {
     const [password, setPassword] = React.useState(' ');
 
     const ctx = React.useContext(UserContext);
-
     
             function validate (field, label) {
                 if (!field) {
